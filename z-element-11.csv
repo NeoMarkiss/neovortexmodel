@@ -1,0 +1,12 @@
+﻿Z,Element,Stability,Needs_Zx,Zx_value,Harmonic_arc,Notes
+43,Tc,unstable,true,42.8,Mo–Ru arc,first “gap” in stability
+61,Pm,unstable,true,60.6,Nd–Sm arc,second “gap” in stability
+83,Bi,quasi-stable,false,—,Bi-arc,diamagnetic inversion anchor
+84,Po,unstable,true,83.4,Bi-arc,pulled back toward Bi harmonic
+86,Rn,unstable,true,85.9,Bi–Rn arc,noble-gas node near Bi inversion
+92,U,long-lived,borderline,true,93.7,Actinide arc,nudged toward Np/Pu harmonic
+94,Pu,unstable,true,95.2,Actinide arc,near Pu–Am resonance
+98,Cf,unstable,true,100.1,Heavy-arc,crossing toward “superheavy” curvature
+112,Cn,unstable,true,115.0,Superheavy-arc,converging on 115 harmonic
+115,Mc,unstable,true,115.7,115-arc,local exotic node (Lazar-relevant)
+118,Og,unstable,true,164.3,Island-arc,projected island of stability

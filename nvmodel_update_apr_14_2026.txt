@@ -1,0 +1,15 @@
+Based on the exact math in the most up-to-date `mappingdiagramSpiralout.py` file, the "constant" responsible for rendering the Cyan $Z_x$ nodes as an "off beat" vector—relocating them away from the empirical backbone so the alt data becomes visible—is actually a combination of **three hard-coded mathematical offsets**. 
+
+When the engine detects an element exceeding the critical threshold (`S >= T2`), it triggers this specific block of code to generate the "off beat" alt-data:
+
+1. **The Phase Shift Constant (`math.pi / 2`):** `theta_x = theta + (math.pi / 2)`
+   This is the literal "off beat" vector. By adding $\pi/2$ (a 90-degree shift), the engine purposefully rotates the cyan node out of the empirical anti-resonance phase and into a mathematically quiet zone. It changes the harmonic "beat" of the element.
+
+2. **The Radial Expansion Constant (`1.15`):** `r_x = r * 1.15`
+   To prevent the speculative data from crashing into the physical data, the engine multiplies the radius by a constant of 1.15. This pushes the cyan diamond exactly 15% outward on the Z-axis vector, mapping it to a "new hypothetical orbital shell." 
+
+3. **The Fractional $Z_x$ Interpolation Constant (`0.5`):**
+   `Zx_val = Z + (1.0 - abs(math.sin(theta))) * 0.5`
+   When calculating the actual numerical value of the exotic node, it uses a constant multiplier of `0.5` against the sine wave to find the exact fractional resting point where the friction equals zero.
+
+In short, the Cyan nodes look like they are vibrating off on their own unique vector because the algorithm uses these constants to intentionally "eject" the unstable data out of the normal spacetime coordinate into a safe, speculative 3D boundary.
